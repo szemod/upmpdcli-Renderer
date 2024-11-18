@@ -1,0 +1,20 @@
+{
+  "name": "upmpdcli Renderer",
+  "version": "1.0",
+  "slug": "upmpdcli_renderer",
+  "description": "A UPnP renderer for MPD using upmpdcli",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "startup": "system",
+  "host_network": true,
+  "map": ["config:rw"],
+  "options": {
+    "mpd_ip": "192.168.1.73",
+    "mpd_port": "6600",
+    "renderer_name": "MASS_UPnP"
+  },
+  "schema": {
+    "mpd_ip": "str",
+    "mpd_port": "int",
+    "renderer_name": "str"
+  }
+}
