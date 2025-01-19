@@ -12,9 +12,4 @@ in Dockerfile:
 
 CMD ["upmpdcli", "-h", "192.168.1.73", "-p", "6600", "-f", "Home_Assistant_UPnP"]
 
-in config.json:
 
-  "options": {
-    "mpd_ip": "192.168.1.73",
-    "mpd_port": "6600",
-    "renderer_name": "MASS_UPnP"    
