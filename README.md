@@ -1,4 +1,4 @@
-# upmpdcli-Renderer
+# upmpdcli-Renderer (discontinued project)
 upmpdcli Renderer Addon for Home Assistant
 The easiest way is to create a folder named "upmpdcli_renderer" under the addons share of your Home Assistant server, like this: "\addons\upmpdcli_renderer", and then copy the files into it. 
 After that, go to the Add-ons section and click on the "Add-ons Store" button in the lower right corner. 
